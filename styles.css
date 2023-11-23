@@ -1,0 +1,1716 @@
+/* styles.css */
+
+body {
+    font: 400 1em/1.5 "Neuton";
+    background: #090d00;
+    color: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas de largura igual */
+    gap: 10px; /* Espaço entre as colunas */
+  }
+  
+  .grid-item {
+    text-align: center; /* Alinhe o conteúdo no centro das células do grid */
+  }
+  
+  .grid-item img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner da coluna */
+  }
+  
+
+p {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    border: 4px double rgba(255, 255, 255, 0.25);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+}
+
+.card-canais1 {
+    margin-top: 120px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/89/Logotipo_da_GloboNews.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner da coluna */
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    text-align: center; /* Alinhe o conteúdo no centro das células do grid */
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais2 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt5b126f5c37b4648d/63e5616304418740b3be012a/sportv-logo-8.png?auto=webp&format=pjpg&width=828&quality=60);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    text-align: center; /* Alinhe o conteúdo no centro das células do grid */
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(255, 255, 255, 0.918);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais3 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center; /* Alinhe o conteúdo no centro das células do grid */
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(255, 0, 0, 0.861);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais4 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://yt3.googleusercontent.com/VqsfY5sZkGoth0GasS9bAL3wVv3UdJQ3SoVLnoM5e-oZPCHmDr__pxaq2Wa7YBmz5sWF5bJKcg=s900-c-k-c0x00ffffff-no-rj);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(255, 255, 255, 0.884);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais5 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://www.nationalgeographicbrasil.com/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+
+.card-canais7 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://play-lh.googleusercontent.com/ZhI1_XzoQCl5u9kvIx28E8kTYOO6qP0EEerUZXnGV3aSzMRidE2XAIsUYZeCb3n7LfQ);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais8 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/640px-Cartoon_Network_2010_logo.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais9 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/800px-TNT_Logo_2016.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais10 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/640px-HBO_logo.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais11 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4d/FX_International_logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais12 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1200px-Universal_TV_logo.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais13 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Fox_Sports_Argentina_2023.svg/1200px-Fox_Sports_Argentina_2023.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais14 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/GNT_logo-roxo.svg/800px-GNT_logo-roxo.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-canais15 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://yt3.googleusercontent.com/L8svVJBwJuCV9gG6-A6q8efblNC5mEH3ydOOm5KVKWgp9TAUXjQHoiRocWK80mqOAmIeoIprAA=s900-c-k-c0x00ffffff-no-rj);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+
+
+.card-canais1:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais2:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais3:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais4:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais5:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais6:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais7:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais8:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais9:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais10:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais11:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais12:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais13:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais14:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-canais15:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+
+p span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.473);
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* header  */
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Estilizando o botão de login no header */
+#home-button {
+    background-color: #17c700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+#home-button:hover {
+    background-color: #e64000;
+}
+
+#login-button {
+    background-color: #17c700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+.nav {
+    background-color: #17c700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+#login-button:hover {
+    background-color: #e64000;
+}
+
+#serie-button {
+    background-color: #17c700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-items: flex-end;
+}
+
+#canais-button:hover {
+    background-color: #e64000;
+}
+
+#canais-button {
+    background-color: #17c700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#canais-button:hover {
+    background-color: #e64000;
+}
+
+#animes-button {
+    background-color: #17c700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#animes-button:hover {
+    background-color: #e64000;
+}
+
+/* conteúdo da página */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 18rem;
+    /* Para ocupar o espaço restante verticalmente */
+}
+
+/* cards home */
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Distribui os elementos com espaço entre eles */
+    align-items: center;
+    /* Alinha os elementos verticalmente ao centro */
+    
+
+}
+
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://imgs.search.brave.com/lQkehZY4H0j00ZGoJ_kiLNlKMHDV3vzhBHnEO-GdbzI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/c29ueXBpY3R1cmVz/LmNvbS5ici9zaXRl/cy9icmF6aWwvZmls/ZXMvMjAyMy0wOC9T/Tl9Ib21lbUFyYW5o/YV8xNDAweDIxMDAl/MjAoMSkuanBn);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+    margin-top: 5%;
+}
+
+.card2 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://imgs.search.brave.com/wF1cNNe9ezjHlzTTrDADcp7WNO_t2TkhX5qQt-Wo_3o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dWNpY2luZW1hcy5j/b20uYnIvQ29udGVu/dC9VcGxvYWQvRmls/bWVzL1Bvc3RlcnMv/MTA4MTcvZmlsbWVf/MTA4MTcuanBn);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+    margin-top: 5%;
+}
+
+.card3 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://imgs.search.brave.com/QajClN3Z6xe8weVUi0ku042rZTLHQjoGzH-YZ2Y7hTo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2xhcXVldGUuY29t/LmJyL2ZvdG9zL2Zp/bG1lcy9wb3N0ZXIv/MTU0MDNfbWVkaW8u/anBn);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+    margin-top: 5%;
+}
+
+.card4 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://imgs.search.brave.com/7qqR-z24N9-Clfzdm0Ic_c7kk-9bCUw90_kvyX8p-C4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dWNpY2luZW1hcy5j/b20uYnIvQ29udGVu/dC9VcGxvYWQvRmls/bWVzL1Bvc3RlcnMv/MTA5MjcvZmlsbWVf/MTA5MjcuanBn);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+    margin-top: 5%;
+}
+
+.card5 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://imgs.search.brave.com/A3RGunQxoT_Oe-o6wAaxbVivTmOJiBwrFEHGRnW3Q40/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aXRhdWNpbmVtYXMu/Y29tLmJyL19pbWcv/X2ZpbG1lcy81NDM4/X2NhcGEuanBnP1Jl/c2lzdGVuY2lh);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+    margin-top: 5%;
+}
+
+
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card2:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card3:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card4:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card5:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card6:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card h2 {
+    color: white;
+}
+
+/* Parte de estilo SERIES */
+
+.card-container-serie {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-serie1 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/xMI4ToxjqQ16afwNfklTXUKPCoE.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie2 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/cTJYU7lpFbrz5hoIQugGBDEdezy.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie3 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/Qy5KXMn88HHZRvcjtttuqyBesn.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie4 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/1LVJsegSfZEZr7gdVs5CbyGt5Lk.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie5 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/6OTZ66ZlJvOVb5A8ALiPzTD0n3H.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie6 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/c7bpibmgrAJfcDCTAB1yR1w3X9U.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie7 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/nDcCDesRRavcr5D4MpydMrN5RMz.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie8 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/fPyX82cUcqeuiOe3msuVeOnMCc9.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie9 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/5im3hm58kN4M2bKZgXz8ZvFuRlh.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie10 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/wxPxeGw7GRxxChlJrq5UlACjXDf.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie11 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/kJ7dyj7iF7zMaSWxtlIqQrl2BZj.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie12 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/wuVngWpJNrhojvkbYibosycSUKy.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie13 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/s83DmhvDxeVPu4x4ZpLQ3KmGe0K.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie14 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/3lXoJ6kqWQzQM8GTSWZlCOxSs70.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie15 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/vKkzy0lqZoOGdekpSaXfNBiUkgV.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie16 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/g6ChGB5ZCmPwo3T8qCoIaiFWPDf.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie17 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/a2Ckhf72DfQKRNZpeECxyrqaIV3.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie18 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/mdH0FbD328BIann1TPVwsPdCi0G.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie19 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/cSnH3z11orsFkngkVt59vi4DnZJ.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie20 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/pvLHX43Btkayypqp23fWaROILa5.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie21 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/uv63iNWOh69bSJYJQZjiX6n8B3m.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie22 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/2Q7HWyDO3PCKJPcfZh0KzYws6ys.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie23 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/7EOWkNGxXq2MBZxfV3ZxjRM4vlH.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie24 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/4TeM8li5TeJ4CquL26bbrnCZ8yM.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie25 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/vvOccQ5Mcn665KXS2KSnldhpvva.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie26 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/9FrKOIebq6uYDPtSadrOp3Pipl3.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie27 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://image.tmdb.org/t/p/w500/cpZ6QBAHhWardieS6MgT8nhMnWx.jpg);
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-serie1:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie2:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie3:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie4:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie5:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie6:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie7:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie8:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie9:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie10:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie11:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie12:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie13:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie14:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie15:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie16:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie17:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie18:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie19:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie20:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie21:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie22:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie23:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie24:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie25:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie26:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-serie27:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+/* parte de animes*/
+.card-container-animes {
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-animes1 {
+    margin-top: 120px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://m.media-amazon.com/images/I/81GXjfc4w3L._AC_UF894,1000_QL80_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner da coluna */
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    text-align: center; /* Alinhe o conteúdo no centro das células do grid */
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes2 {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://br.web.img2.acsta.net/pictures/19/09/24/14/20/2756507.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    text-align: center; /* Alinhe o conteúdo no centro das células do grid */
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(255, 255, 255, 0.918);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes3 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://m.media-amazon.com/images/I/41krRX3sSPL._AC_UF894,1000_QL80_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center; /* Alinhe o conteúdo no centro das células do grid */
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(255, 0, 0, 0.861);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes4 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://assets.cdn.moviepilot.de/files/2785fe04569a02a118e1056e9cc4f15bbaa94490d995a2aca34d64987774/copyright/62f83365012b0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(255, 255, 255, 0.884);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes5 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://1.bp.blogspot.com/-qmJFMCUWj3E/X6WqXXqHj8I/AAAAAAAAAnY/kDGAlNCYj3Q8YeVxwHhztsLVRtt0Wcb1QCLcBGAsYHQ/s2048/pokemon_journeys_the_series_japanese_poster.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes6 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://i.ebayimg.com/images/g/bosAAOSwLB5egNBa/s-l1600.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes7 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://sm.ign.com/ign_br/tv/m/my-hero-ac/my-hero-academia_f9ae.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes8 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://i.pinimg.com/1200x/06/40/9d/06409d9cd2a91789b6a76c4b4db130c6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes9 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://www.arthipo.com/image/cache/catalog/poster/anime/1898-2381/anime2327-tokyo-ghoul-8-1000x1000.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes10 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://i.pinimg.com/originals/c9/06/8f/c9068fdde367443564dd01ff5e7a4be8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes11 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2023/08/9781990778933_The-God-of-High-School_Vol.-2_Sales-CVR-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes12 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://i.ebayimg.com/images/g/LJQAAOSw9~BjUQIU/s-l1600.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes13 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/13a04677667fcf9d0ba4bf144c2dcb8d.jpe);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes14 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/a9ed4746e246efef6c6c7d7de98f15cc.jpe);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+.card-animes15 {
+    background-repeat: none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url(https://sm.ign.com/ign_br/tv/m/my-hero-ac/my-hero-academia_f9ae.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    transition: all 0.3s ease-out;
+    background-color: rgb(0, 0, 0);
+    margin-right: 20px;
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+.card-animes16 {
+    margin-top: 120px;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    padding: 30px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Centraliza a imagem no card */
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner da coluna */
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    text-align: center; /* Alinhe o conteúdo no centro das células do grid */
+    /* Adicione uma margem direita para criar espaço entre os cards */
+}
+
+
+.card-animes1:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes2:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes3:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes4:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes5:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes6:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes7:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes8:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes9:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes10:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes11:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes12:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes13:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes14:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+.card-animes15:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+.card-animes16:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    margin-top: 2%;
+    background-color: #33333398;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+/* formulario */
+
+form {
+    text-align: center;
+    margin-top: 5rem;
+    align-items: center;
+    background-color: rgb(80, 42, 131);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Estilo para os rótulos dos campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* Estilo para os campos de entrada de texto */
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para o botão de login */
+button[type="submit"] {
+    background-color: #17c700;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #e64000;
+}
+
+/* Estilo para o parágrafo no elemento <main> */
+main p {
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    border: 4px double rgba(255, 255, 255, 0.25);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+
+}
+
+main p span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.473);
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+table{
+    margin-top: 100px;
+}
+
+.filme-card{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(179, 210, 245, 0.144);
+    width: 200px;
+    transition: all 0.3s ease-out;
+    background-color: rgba(179, 210, 245, 0.212);
+    margin-right: 20px;
+    margin: 15px 15px;
+}
+
+.filme-card:hover {
+    transform: translateX(-5px);
+    cursor: pointer;
+}
